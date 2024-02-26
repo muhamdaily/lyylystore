@@ -30,7 +30,7 @@
     <meta property="twitter:image" content="./assets/image/banner/banner.jpg" />
     <!-- Icon & Title -->
     <title>Lyyly Game</title>
-    <link rel="shortcut icon" href="../assets/image/icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -54,6 +54,11 @@
     <script src="../assets/js/easing.min.js"></script>
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/main.js"></script>
+    <style>
+        .product-item.active {
+            border: 1.5px solid black;
+        }
+    </style>
 </head>
 
 <body>
@@ -427,6 +432,12 @@
 
     <!-- Bootstrap -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(".product-item").on("click", function (e) {
+            $(".product-item").removeClass("active");
+            $(this).addClass("active");
+        });
+    </script>
 </body>
 
 </html>
