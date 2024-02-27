@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- color of address bar in mobile browser -->
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+    <!-- Primary Meta Tags -->
+    <meta name="keywords" content="Lyyly Game" />
+    <meta name="author" content="Lyyly Game" />
+    <meta name="title" content="Lyyly Game" />
+    <meta name="description" content="Top up game, Murah &amp; Aman legal 100% Lyylystore" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lyylystore.com" />
+    <meta property="og:author" content="Lyyly Game" />
+    <meta property="og:title" content="Lyyly Game" />
+    <meta property="og:description" content="Top up game, Murah &amp; Aman legal 100% Lyylystore" />
+    <meta property="og:image" content="./assets/image/banner/banner.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://domain.com" />
+    <meta property="twitter:title" content="Lyyly Game" />
+    <meta property="twitter:description" content="Top up game, Murah &amp; Aman legal 100% Lyylystore" />
+    <meta property="twitter:image" content="./assets/image/banner/banner.jpg" />
+    <!-- Icon & Title -->
+    <title>Lyyly Game</title>
+    <link rel="shortcut icon" href="../assets/icon.jpg" type="image/x-icon" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+    <link href="../assets/css/bundle.css" rel="stylesheet" />
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/96908e4f4e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="../assets/js/easing.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <style>
+        .product-item.active {
+            border: 1.5px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="container-fluid mb-5"
+            style="background-image: url('../assets/image/produk/charisma.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px;">
+                <div class="text-center py-4 px-5" style="background-color: rgba(0, 0, 0, 0.73);">
+                    <h1 class="font-weight-semi-bold text-uppercase mb-1 text-white">Gift Charisma</h1>
+                    <div class="d-inline-flex">
+                        <p class="m-0">
+                            <a href="../index.html" style="text-decoration: none;">Home</a>
+                        </p>
+                        <p class="m-0 px-2">-</p>
+                        <p class="m-0">Pembelian</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row px-xl-5">
+                <div class="px-3 col-12">
+                    <div class="row pb-3">
+                        <div class="col-12 pb-1">
+                            <h1 class="mb-3">1. Masukan Data</h1>
+
+                            <div class="d-flex align-items-center justify-content-between mb-4">
+                                <div class="col-12">
+                                    <div class="row justify-content-between">
+                                        <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
+                                            <input type="text" class="form-control shadow-sm" placeholder="User ID"
+                                                id="user-id" style="height: 50px;">
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
+                                            <input type="text" class="form-control shadow-sm" placeholder="Zone ID"
+                                                id="zone-id" style="height: 50px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <h1 class="mb-3">2. Pilih Item</h1>
+                            <div>
+                                <div class="d-flex flex-wrap mb-5">
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (8) Layla's Chocolate
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 2.500</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Haunted Doll's Candy
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Diggie's Colored Egg
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Nana's Paw
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Harley's Magic Hat
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Adorable Smilodon
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Kagura's Seimei Umbrella
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (20) Angela's Doll
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 4.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (499) Angel Ark
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 68.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (499) Pardise Island
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 68.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                            <div class="card-body border-left border-right text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    (999) Goldmoon Latern
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 135.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button class="submit-button btn">Beli sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid bg-secondary text-dark mt-5">
+            <div class="row px-xl-5 pt-5">
+                <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                    <a href="" class="text-decoration-none">
+                        <h1 class="mb-4 display-5 font-weight-semi-bold">LyylyStore</h1>
+                    </a>
+                    <p>Top-Up Game Favorite Kamu Di Lyyly Store Agar Main Game Semakin Seru.</p>
+                    <p class="mb-2"><i class="fa fa-map-marer-alt text-primary mr-3"></i>Instagram : @lyylystore</p>
+                    <p class="mb-2"><i class="fa fa-envelop text-primary mr-3"></i>Tiktok : notyourlyyly</p>
+                    <p class="mb-0"><i class="fa fa-phne-alt text-primary mr-3"></i>Whatsapp : 0895322373657</p>
+                    <p>DANA - OVO - GOPAY - SHOPEEPAY - LINKAJA - BCA - SEABANK - INDOMARET - QRIS all payment.
+                        Semua Pembayaran Atas Nama Faniesa / Lyylystore</p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(".product-item").on("click", function (e) {
+            $(".product-item").removeClass("active");
+            $(this).addClass("active");
+        });
+
+        // Memperoleh nilai dari input dan elemen lainnya
+        $(".submit-button").on("click", function () {
+            var userID = $("input#user-id").val();
+            var zoneID = $("input#zone-id").val();
+            var itemName = $(".product-item.active").find("h6#item").text();
+            var itemPrice = $(".product-item.active").find("h6#harga").text();
+
+            // Membuat pesan WhatsApp dengan format yang diinginkan
+            var whatsappMessage = "˖ ࣪ ‹. Hallo saya ingin order item berikut  .›  ࣪˖\n" +
+                "Nama game: Gift Charisma\n" +
+                "Item: " + itemName + "\n" +
+                "Harga: " + itemPrice + "\n" +
+                "User ID: " + userID + "\n" +
+                "Zone ID: " + zoneID;
+
+            // Membuka aplikasi WhatsApp dengan pesan yang telah dibuat
+            var whatsappLink = "https://api.whatsapp.com/send?phone=62895322373657&text=" + encodeURIComponent(whatsappMessage);
+            window.open(whatsappLink);
+        });
+    </script>
+
+</body>
+
+</html>
