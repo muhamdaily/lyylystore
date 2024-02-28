@@ -56,7 +56,54 @@
     <script src="../assets/js/main.js"></script>
     <style>
         .product-item.active {
-            border: 1.5px solid black;
+            border: 4px solid #ff8eb2;
+            position: relative;
+        }
+
+        .product-item {
+            border-radius: 10px;
+        }
+
+        .product-item.active:after {
+            width: 27px;
+            height: 27px;
+            border-bottom-left-radius: 10px;
+            content: "✔";
+            position: absolute;
+            top: -1px;
+            right: -1px;
+            color: white;
+            background: #ff8eb2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (min-width: 992px) {
+            .gambar {
+                min-height: 400px !important;
+            }
+
+            .product-item.active:after {
+                width: 35px;
+                height: 35px;
+                border-bottom-left-radius: 10px;
+                content: "✔";
+                position: absolute;
+                top: -1px;
+                right: -1px;
+                color: white;
+                background: #ff8eb2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .gambar {
+                height: 200px !important;
+            }
         }
     </style>
 </head>
@@ -65,7 +112,7 @@
     <section>
         <div class="container-fluid mb-5"
             style="background-image: url('../assets/image/produk/vilog.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px;">
+            <div class="d-flex flex-column align-items-center justify-content-center gambar" style="min-height: 300px;">
                 <div class="text-center py-4 px-5" style="background-color: rgba(0, 0, 0, 0.73);">
                     <h1 class="font-weight-semi-bold text-uppercase mb-1 text-white">Diamond Vilog</h1>
                     <div class="d-inline-flex">
@@ -107,8 +154,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">275 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 275 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 69.000</h6>
                                                 </div>
@@ -118,8 +165,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">565 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 565 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 130.000</h6>
                                                 </div>
@@ -129,8 +176,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">1155 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 1155 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 250.000</h6>
                                                 </div>
@@ -140,8 +187,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">1765 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 1765 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 370.000</h6>
                                                 </div>
@@ -151,8 +198,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">2975 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 2975 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 590.000</h6>
                                                 </div>
@@ -162,8 +209,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">6000 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 6000 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 1.180.000</h6>
                                                 </div>
@@ -173,8 +220,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">6565 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 6565 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 1.315.000</h6>
                                                 </div>
@@ -184,8 +231,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">7155 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 7155 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 1.435.000</h6>
                                                 </div>
@@ -195,8 +242,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">7765 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 7765 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 1.555.000</h6>
                                                 </div>
@@ -206,8 +253,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">8975 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 8975 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 1.775.000</h6>
                                                 </div>
@@ -217,8 +264,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">12000 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 12000 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 2.365.000</h6>
                                                 </div>
@@ -228,8 +275,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">12565 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 12565 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 2.500.000</h6>
                                                 </div>
@@ -239,8 +286,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">13155 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 13155 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 2.620.000</h6>
                                                 </div>
@@ -250,8 +297,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">13765 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 13765 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 2.740.000</h6>
                                                 </div>
@@ -261,8 +308,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">14975 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 14975 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 2.960.000</h6>
                                                 </div>
@@ -272,8 +319,8 @@
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
-                                            <div class="card-body border-left border-right text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">18000 Diamond</h6>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 18000 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 3.550.000</h6>
                                                 </div>
