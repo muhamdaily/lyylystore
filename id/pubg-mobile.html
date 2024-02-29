@@ -79,6 +79,26 @@
             justify-content: center;
         }
 
+        .title {
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: black;
+        }
+
+        .circle-title {
+            background: #e2368d;
+            border: 3px solid pink;
+            margin-right: 10px;
+            border-radius: 50%;
+            width: 44px;
+            height: 44px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
         @media (min-width: 992px) {
             .gambar {
                 min-height: 400px !important;
@@ -131,7 +151,9 @@
                 <div class="px-3 col-12">
                     <div class="row pb-3">
                         <div class="col-12 pb-1">
-                            <h1 class="mb-3">1. Masukkan ID</h1>
+                            <div class="mb-3 title">
+                                <span class="circle-title">1</span> Masukkan ID
+                            </div>
 
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <div class="col-12">
@@ -144,7 +166,9 @@
                                 </div>
                             </div>
 
-                            <h1 class="mb-3">2. Pilih Nominal Top Up</h1>
+                            <div class="mb-3 title">
+                                <span class="circle-title">2</span> Pilih Nominal Top Up
+                            </div>
                             <div>
                                 <h3 class="text-center mb-4">UC Indonesia</h3>
                                 <div class="d-flex flex-wrap mb-5">
