@@ -47,6 +47,7 @@
 
     <!-- Bootstrap -->
     <link href="../assets/css/bundle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../assets/css/muhamdaily.css">
 
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/96908e4f4e.js" crossorigin="anonymous"></script>
@@ -54,78 +55,6 @@
     <script src="../assets/js/easing.min.js"></script>
     <script src="../assets/js/owl.carousel.min.js"></script>
     <script src="../assets/js/main.js"></script>
-    <style>
-        .product-item.active {
-            border: 4px solid #ff8eb2;
-            position: relative;
-        }
-
-        .product-item {
-            border-radius: 10px;
-        }
-
-        .product-item.active:after {
-            width: 27px;
-            height: 27px;
-            border-bottom-left-radius: 10px;
-            content: "✔";
-            position: absolute;
-            top: -1px;
-            right: -1px;
-            color: white;
-            background: #ff8eb2;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .title {
-            display: flex;
-            align-items: center;
-            font-size: 25px;
-            color: black;
-        }
-
-        .circle-title {
-            background: #e2368d;
-            border: 3px solid pink;
-            margin-right: 10px;
-            border-radius: 50%;
-            width: 44px;
-            height: 44px;
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-
-        @media (min-width: 992px) {
-            .gambar {
-                min-height: 400px !important;
-            }
-
-            .product-item.active:after {
-                width: 35px;
-                height: 35px;
-                border-bottom-left-radius: 10px;
-                content: "✔";
-                position: absolute;
-                top: -1px;
-                right: -1px;
-                color: white;
-                background: #ff8eb2;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        }
-
-        @media (max-width: 991.98px) {
-            .gambar {
-                height: 200px !important;
-            }
-        }
-    </style>
 </head>
 
 <body>
@@ -178,9 +107,10 @@
                             </div>
                             <div>
                                 <div class="d-flex flex-wrap mb-5">
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 85 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -189,9 +119,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 110 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -200,9 +131,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 170 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -211,9 +143,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 240 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -222,9 +155,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 276 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -233,9 +167,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 284 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -244,9 +179,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 296 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -255,9 +191,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 300 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -266,9 +203,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 355 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -277,9 +215,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 408 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -288,9 +227,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 568 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -299,9 +239,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 738 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -310,9 +251,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 875 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -321,9 +263,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 1045 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -332,9 +275,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 1171 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -343,9 +287,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 1283 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -354,9 +299,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 1443 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -365,9 +311,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 2010 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -376,9 +323,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 2625 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -387,9 +335,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 2885 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -398,9 +347,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 3453 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -409,9 +359,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 4020 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -420,9 +371,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 4830 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -431,9 +383,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 6840 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -442,9 +395,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 7715 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -453,9 +407,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 8850 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -464,9 +419,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                    <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
-                                        <div class="h-100 card product-item mb-1 mb-md-3 " style="cursor: pointer;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
                                                 <h6 class="text-truncate mb-3 pt-4" id="item">💎 9660 Diamond</h6>
                                                 <div class="d-flex justify-content-center">
@@ -488,7 +444,7 @@
         <!-- Footer -->
         <div class="container-fluid bg-secondary text-dark mt-5">
             <div class="row px-xl-5 pt-5">
-                <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                <div class="col-lg-3 col-md-12 mb-5 pr-3 pr-xl-5">
                     <a href="" class="text-decoration-none">
                         <h1 class="mb-4 display-5 font-weight-semi-bold">LyylyStore</h1>
                     </a>
