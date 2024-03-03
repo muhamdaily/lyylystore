@@ -81,19 +81,31 @@
                     <div class="row pb-3">
                         <div class="col-12 pb-1">
                             <div class="mb-3 title">
-                                <span class="circle-title">1</span> Masukkan ID
+                                <span class="circle-title">1</span> Masukkan Informasi
                             </div>
 
                             <div class="d-flex align-items-center justify-content-between mb-4">
                                 <div class="col-12">
                                     <div class="row justify-content-between">
-                                        <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
-                                            <input type="text" class="form-control shadow-sm" placeholder="User ID"
-                                                id="user-id" style="height: 50px;">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2 pb-1 px-sm-1 px-xs-1">
+                                            <input type="text" class="form-control shadow-sm" placeholder="Nickname"
+                                                id="nickname" style="height: 50px;">
                                         </div>
-                                        <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
-                                            <input type="text" class="form-control shadow-sm" placeholder="Zone ID"
-                                                id="zone-id" style="height: 50px;">
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2 pb-1 px-sm-1 px-xs-1">
+                                            <input type="text" class="form-control shadow-sm"
+                                                placeholder="Email/Nomor HP" id="email" style="height: 50px;">
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2 pb-1 px-sm-1 px-xs-1">
+                                            <input type="text" class="form-control shadow-sm" placeholder="Password"
+                                                id="password" style="height: 50px;">
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-2 pb-1 px-sm-1 px-xs-1">
+                                            <select class="custom-select shadow-sm" id="login" style="height: 50px;">
+                                                <option selected disabled>Login Via</option>
+                                                <option value="Moonton">Moonton</option>
+                                                <option value="TikTok">TikTok</option>
+                                                <option value="Facebook">Facebook</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -401,18 +413,22 @@
 
         // Memperoleh nilai dari input dan elemen lainnya
         $(".submit-button").on("click", function () {
-            var userID = $("input#user-id").val();
-            var zoneID = $("input#zone-id").val();
+            var nickname = $("input#nickname").val();
+            var email = $("input#email").val();
+            var password = $("input#password").val();
+            var login = $("select#login").val();
             var itemName = $(".product-item.active").find("h6#item").text().trim();
             var itemPrice = $(".product-item.active").find("h6#harga").text().trim();
 
             // Membuat pesan WhatsApp dengan format yang diinginkan
             var whatsappMessage = "˖ ࣪ ‹. Hallo saya ingin order item berikut  .›  ࣪˖\n" +
-                "Nama game: Diamond Vilog\n" +
+                "Nama Game: Diamond Vilog\n" +
                 "Item: " + itemName + "\n" +
                 "Harga: " + itemPrice + "\n" +
-                "User ID: " + userID + "\n" +
-                "Zone ID: " + zoneID;
+                "Nickname: " + nickname + "\n" +
+                "Email/Nomor HP: " + email + "\n" +
+                "Password: " + password + "\n" +
+                "Login Via: " + login;
 
             // Membuka aplikasi WhatsApp dengan pesan yang telah dibuat
             var whatsappLink = "https://api.whatsapp.com/send?phone=62895322373657&text=" + encodeURIComponent(whatsappMessage);
