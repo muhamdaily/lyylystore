@@ -381,8 +381,8 @@
         $(".submit-button").on("click", function () {
             var userID = $("input#user-id").val();
             var zoneID = $("input#zone-id").val();
-            var itemName = $(".product-item.active").find("h6#item").text();
-            var itemPrice = $(".product-item.active").find("h6#harga").text();
+            var itemName = $(".product-item.active").find("h6#item").text().trim();
+            var itemPrice = $(".product-item.active").find("h6#harga").text().trim();
 
             // Membuat pesan WhatsApp dengan format yang diinginkan
             var whatsappMessage = "˖ ࣪ ‹. Hallo saya ingin order item berikut  .›  ࣪˖\n" +
