@@ -60,10 +60,10 @@
 <body>
     <section>
         <div class="container-fluid mb-5"
-            style="background-image: url('../assets/image/produk/vilog.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            style="background-image: url('../assets/image/produk/honkai.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
             <div class="d-flex flex-column align-items-center justify-content-center gambar">
                 <div class="text-center py-4 px-5" style="background-color: rgba(0, 0, 0, 0.73); border-radius: 10px;">
-                    <h1 class="font-weight-semi-bold text-uppercase mb-1 text-white">Diamond Vilog</h1>
+                    <h1 class="font-weight-semi-bold text-uppercase mb-1 text-white">Honkai Star Rail</h1>
                     <div class="d-inline-flex">
                         <p class="m-0">
                             <a href="../index.html" style="text-decoration: none;">Home</a>
@@ -88,12 +88,17 @@
                                 <div class="col-12">
                                     <div class="row justify-content-between">
                                         <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
-                                            <input type="text" class="form-control shadow-sm" placeholder="User ID"
+                                            <input type="text" class="form-control shadow-sm" placeholder="UID"
                                                 id="user-id" style="height: 50px;">
                                         </div>
                                         <div class="col-sm-12 col-md-6 mb-2 px-0 pr-md-2">
-                                            <input type="text" class="form-control shadow-sm" placeholder="Zone ID"
-                                                id="zone-id" style="height: 50px;">
+                                            <select class="custom-select shadow-sm" id="zone-id" style="height: 50px;">
+                                                <option selected disabled>Pilih Server</option>
+                                                <option value="America">America</option>
+                                                <option value="Asia">Asia</option>
+                                                <option value="Europe">Europe</option>
+                                                <option value="TW_HK_MO">TW_HK_MO</option>
+                                            </select>
                                         </div>
                                     </div>
                                 </div>
@@ -104,48 +109,20 @@
                             </div>
 
                             <div>
-                                <div class="d-flex flex-wrap mb-5">
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">
-                                                    Bundle 275 Diamond + 180 Coa
-                                                </h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 68.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">
-                                                    Bundle 330 Diamond + 200 Coa
-                                                </h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 80.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div>
+                                <h3 class="text-center mb-4">
+                                    Oneiric Shard
+                                </h3>
                                 <div class="d-flex flex-wrap mb-5">
                                     <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
                                         style="user-select: none;">
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 275 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    60 OS
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 68.000</h6>
+                                                    <h6 id="harga">Rp 14.500</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -155,9 +132,11 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 565 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    330 OS
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 120.000</h6>
+                                                    <h6 id="harga">Rp 58.500</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,9 +146,11 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 1155 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    1090 OS
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 240.000</h6>
+                                                    <h6 id="harga">Rp 178.000</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -179,19 +160,9 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 1765 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 365.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 2975 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    3880 OS
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
                                                     <h6 id="harga">Rp 590.000</h6>
                                                 </div>
@@ -203,9 +174,33 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 6000 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    8080 OS
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 1.150.000</h6>
+                                                    <h6 id="harga">Rp 1.185.000</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3 class="text-center mb-4">
+                                    Express Supply Pass
+                                </h3>
+                                <div class="d-flex flex-wrap mb-5">
+                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
+                                        style="user-select: none;">
+                                        <div class="h-100 card product-item" style="cursor: pointer;">
+                                            <div class="check"><i class="fa fa-check"></i></div>
+                                            <div class="card-body text-center p-0  pb-3">
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    ESP
+                                                </h6>
+                                                <div class="d-flex justify-content-center">
+                                                    <h6 id="harga">Rp 57.500</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -215,9 +210,11 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 6565 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    2x ESP
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 1.270.000</h6>
+                                                    <h6 id="harga">Rp 115.000</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,9 +224,11 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 7155 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    3x ESP
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 1.390.000</h6>
+                                                    <h6 id="harga">Rp 172.500</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -239,93 +238,11 @@
                                         <div class="h-100 card product-item" style="cursor: pointer;">
                                             <div class="check"><i class="fa fa-check"></i></div>
                                             <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 7765 Diamond</h6>
+                                                <h6 class="text-truncate mb-3 pt-4" id="item">
+                                                    4x ESP
+                                                </h6>
                                                 <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 1.515.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 8975 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 1.740.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 12000 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 2.300.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 12565 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 2.420.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 13155 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 2.540.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 13765 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 2.665.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 14975 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 2.890.000</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 pb-1 px-sm-1 px-xs-1"
-                                        style="user-select: none;">
-                                        <div class="h-100 card product-item" style="cursor: pointer;">
-                                            <div class="check"><i class="fa fa-check"></i></div>
-                                            <div class="card-body text-center p-0  pb-3">
-                                                <h6 class="text-truncate mb-3 pt-4" id="item">💎 18000 Diamond</h6>
-                                                <div class="d-flex justify-content-center">
-                                                    <h6 id="harga">Rp 3.450.000</h6>
+                                                    <h6 id="harga">Rp 230.000</h6>
                                                 </div>
                                             </div>
                                         </div>
@@ -402,17 +319,17 @@
         // Memperoleh nilai dari input dan elemen lainnya
         $(".submit-button").on("click", function () {
             var userID = $("input#user-id").val();
-            var zoneID = $("input#zone-id").val();
+            var zoneID = $("select#zone-id").val();
             var itemName = $(".product-item.active").find("h6#item").text();
             var itemPrice = $(".product-item.active").find("h6#harga").text();
 
             // Membuat pesan WhatsApp dengan format yang diinginkan
             var whatsappMessage = "˖ ࣪ ‹. Hallo saya ingin order item berikut  .›  ࣪˖\n" +
-                "Nama game: Diamond Vilog\n" +
+                "Nama game: Honkai Star Rail\n" +
                 "Item: " + itemName + "\n" +
                 "Harga: " + itemPrice + "\n" +
-                "User ID: " + userID + "\n" +
-                "Zone ID: " + zoneID;
+                "UID: " + userID + "\n" +
+                "Server: " + zoneID;
 
             // Membuka aplikasi WhatsApp dengan pesan yang telah dibuat
             var whatsappLink = "https://api.whatsapp.com/send?phone=62895322373657&text=" + encodeURIComponent(whatsappMessage);
